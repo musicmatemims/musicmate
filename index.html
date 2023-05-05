@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>MusicMate</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Favicon -->
+    <link href="img/favicon.png" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Jost:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51">
+    <div class="container-xxl bg-white p-0">
+      <!-- Spinner Start -->
+      <div
+        id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+      >
+        <div
+          class="spinner-grow text-primary"
+          style="width: 3rem; height: 3rem"
+          role="status"
+        >
+          <span class="sr-only">Loading...</span>
+        </div>
+      </div>
+      <!-- Spinner End -->
+
+      <!-- Navbar & Hero Start -->
+      <div class="container-xxl position-relative p-0" id="home">
+        <nav
+          class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0"
+        >
+          <a href="" class="navbar-brand p-0">
+            <!-- <h1 class="m-0">MusicMate</h1> -->
+            <img src="img/logo.svg" alt="Logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+          >
+            <span class="fa fa-bars"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav mx-auto py-0">
+              <a href="#home" class="nav-item nav-link active">Home</a>
+              <a href="#about" class="nav-item nav-link">About</a>
+              <a href="#feature" class="nav-item nav-link">Features</a>
+              <a href="#peak" class="nav-item nav-link active">Sneak Peak</a>
+              <a href="#links" class="nav-item nav-link">Links</a>
+              <a href="#team" class="nav-item nav-link">Team</a>
+            </div>
+          </div>
+        </nav>
+
+        <div class="container-xxl bg-primary hero-header">
+          <div class="container px-lg-5">
+            <div class="row g-5">
+              <div class="col-lg-8 text-center text-lg-start">
+                <h1 class="text-white mb-4 animated slideInDown">
+                  LinkedIn for independent musicians
+                </h1>
+                <p class="text-white pb-3 animated slideInDown">
+                  MusicMate is a mobile web application made by music lovers for
+                  music lovers. Think LinkedIn for independent musicians.
+                  MusicMate offers its users a place to shine, exchange ideas,
+                  and find gigs to take their music career to the next level
+                </p>
+              </div>
+              <div
+                class="col-lg-4 d-flex justify-content-center justify-content-lg-end wow fadeInUp"
+                data-wow-delay="0.3s"
+              >
+                <div class="owl-carousel screenshot-carousel">
+                  <img class="img-fluid" src="img/mm1.png" alt="" />
+                  <img class="img-fluid" src="img/mm2.png" alt="" />
+                  <img class="img-fluid" src="img/mm3.png" alt="" />
+                  <img class="img-fluid" src="img/mm4.png" alt="" />
+                  <img class="img-fluid" src="img/mm5.png" alt="" />
+                  <img class="img-fluid" src="img/mm6.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Navbar & Hero End -->
+
+      <!-- About Start -->
+      <div class="container-xxl py-5" id="about">
+        <div class="container py-5 px-lg-5">
+          <div class="row g-5 align-items-center">
+            <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.1s">
+              <h5 class="text-primary-gradient fw-medium">About MusicMate</h5>
+              <h1 class="mb-4">
+                The only helping musicians expand their network and find work
+                opportunities
+              </h1>
+              <p class="mb-4">
+                We are building a platform that connects musicians and music
+                lovers from around the world.
+                <br />
+                <br />
+                Our goal is to build a thriving community of musicians who can
+                collaborate, learn from each other, and produce music that makes
+                people happy!
+                <br />
+                <br />
+                MusicMate offers a user-friendly platform that caters to the
+                demands of the music community, with tools that help musicians
+                locate gigs and chances to exhibit their talents in public
+                spaces nearby.
+              </p>
+            </div>
+            <div class="col-lg-7">
+              <img
+                class="img-fluid wow fadeInUp"
+                data-wow-delay="0.5s"
+                src="img/about.png"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- About End -->
+
+      <!-- Features Start -->
+      <div class="container-xxl py-5" id="feature">
+        <div class="container py-5 px-lg-5">
+          <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h5 class="text-primary-gradient fw-medium">Core Features</h5>
+            <h1 class="mb-5">We have four core modules</h1>
+          </div>
+          <div class="row g-4">
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div class="feature-item bg-light rounded p-4">
+                <div
+                  class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle mb-4"
+                  style="width: 60px; height: 60px"
+                >
+                  <i class="fa fa-user text-white fs-4"></i>
+                </div>
+                <h5 class="mb-3">Onboarding and Profile Creation</h5>
+                <p class="m-0">
+                  User's choose what aspects of their profile they want to
+                  showcase to others and what they want to be private.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+              <div class="feature-item bg-light rounded p-4">
+                <div
+                  class="d-inline-flex align-items-center justify-content-center bg-secondary-gradient rounded-circle mb-4"
+                  style="width: 60px; height: 60px"
+                >
+                  <i class="fa fa-search text-white fs-4"></i>
+                </div>
+                <h5 class="mb-3">Home Feed and Discovery</h5>
+                <p class="m-0">
+                  Our home feed and search functionality allows you to easily
+                  and quickly find relevant people, gigs and posts that might be
+                  of interest to you.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+              <div class="feature-item bg-light rounded p-4">
+                <div
+                  class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle mb-4"
+                  style="width: 60px; height: 60px"
+                >
+                  <i class="fa fa-handshake text-white fs-4"></i>
+                </div>
+                <h5 class="mb-3">Build your network</h5>
+                <p class="m-0">
+                  Bookmark interesting profiles, find new band mates by viewing
+                  their portfolio or message other users.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div class="feature-item bg-light rounded p-4">
+                <div
+                  class="d-inline-flex align-items-center justify-content-center bg-secondary-gradient rounded-circle mb-4"
+                  style="width: 60px; height: 60px"
+                >
+                  <i class="fa fa-money-bill text-white fs-4"></i>
+                </div>
+                <h5 class="mb-3">Findings gigs and opportunities</h5>
+                <p class="m-0">
+                  Use our gig posting service to either find a job that
+                  interests you or post an opening to find just the right
+                  candidate.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Features End -->
+
+      <!-- Screenshot Start -->
+      <div class="container-xxl py-5" id="peak">
+        <div class="container py-5 px-lg-5">
+          <div class="row g-5 align-items-center">
+            <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.1s">
+              <h5 class="text-primary-gradient fw-medium">
+                A little sneak peek
+              </h5>
+              <h1 class="mb-4">User-friendly, Mobile-first web interface</h1>
+              <p>
+                <i class="fa fa-check text-primary-gradient me-3"></i>Filter
+                users, gigs and posts
+              </p>
+              <p>
+                <i class="fa fa-check text-primary-gradient me-3"></i>Quick
+                apply to available gig positions
+              </p>
+              <p class="mb-4">
+                <i class="fa fa-check text-primary-gradient me-3"></i>Bookmark
+                users and gigs for future reference
+              </p>
+            </div>
+            <div
+              class="col-lg-4 d-flex justify-content-center justify-content-lg-end wow fadeInUp"
+              data-wow-delay="0.3s"
+            >
+              <div class="owl-carousel screenshot-carousel">
+                <img class="img-fluid" src="img/mm7.png" alt="" />
+                <img class="img-fluid" src="img/mm8.png" alt="" />
+                <img class="img-fluid" src="img/mm9.png" alt="" />
+                <img class="img-fluid" src="img/mm10.png" alt="" />
+                <img class="img-fluid" src="img/mm11.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Screenshot End -->
+
+      <!-- Download Start -->
+      <div class="container-xxl py-5" id="links">
+        <div class="container py-5 px-lg-5">
+          <div class="row g-5 align-items-center">
+            <div class="col-lg-6">
+              <iframe
+                class="img-fluid wow fadeInUp"
+                data-wow-delay="0.1s"
+                width="1280"
+                height="720"
+                src="https://www.youtube.com/embed/oNh_0AnBkJU"
+                title="MusicMate Product Video"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+              <h5 class="text-primary-gradient fw-medium">Relevant Links</h5>
+              <h1 class="mb-4">
+                Quick access to our code, design, and project report
+              </h1>
+              <p class="mb-4">
+                MusicMate was created as an open-source project part of our
+                graduate-school capstone project. You can find our design guide,
+                wireframes and our project code in the links below. Also
+                attached is a project report which talks about our motivation
+                behind the product, design thinking and development process.
+              </p>
+              <div class="row g-4">
+                <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
+                  <a
+                    href="https://www.figma.com/proto/cu4qOejV38zChL8QPV6MCk/Consolidation?node-id=130-3584&scaling=scale-down&page-id=130%3A3583&starting-point-node-id=130%3A3584&show-proto-sidebar=1"
+                    class="d-flex bg-primary-gradient rounded py-3 px-4"
+                  >
+                    <i class="fa fa-palette fa-3x text-white flex-shrink-0"></i>
+                    <div class="ms-3">
+                      <p class="text-white mb-0">Hi-Fi Prototype</p>
+                      <h5 class="text-white mb-0">Figma</h5>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
+                  <a
+                    href="https://github.com/rishabhmthakur2/musicmate"
+                    class="d-flex bg-primary-gradient rounded py-3 px-4"
+                  >
+                    <i class="fab fa-github fa-3x text-white flex-shrink-0"></i>
+                    <div class="ms-3">
+                      <p class="text-white mb-0">Project Code</p>
+                      <h5 class="text-white mb-0">Github</h5>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
+                  <a
+                    href="https://www.ischool.berkeley.edu/projects/2023/musicmate"
+                    class="d-flex bg-primary-gradient rounded py-3 px-4"
+                  >
+                    <i
+                      class="fa fa-laptop-code fa-3x text-white flex-shrink-0"
+                    ></i>
+                    <div class="ms-3">
+                      <p class="text-white mb-0">Project Website</p>
+                      <h5 class="text-white mb-0">Capstone</h5>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-sm-6 wow fadeIn" data-wow-delay="0.7s">
+                  <a
+                    href=""
+                    class="d-flex bg-secondary-gradient rounded py-3 px-4"
+                  >
+                    <i class="fa fa-file fa-3x text-white flex-shrink-0"></i>
+                    <div class="ms-3">
+                      <p class="text-white mb-0">Project Report</p>
+                      <h5 class="text-white mb-0">Drive</h5>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Download End -->
+
+      <!-- Testimonial Start -->
+      <div class="container-xxl py-5" id="team">
+        <div class="container py-5 px-lg-5">
+          <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h5 class="text-primary-gradient fw-medium">About us</h5>
+            <h1 class="mb-5">Meet the team aka Kaaaar!</h1>
+          </div>
+          <div
+            class="owl-carousel testimonial-carousel wow fadeInUp"
+            data-wow-delay="0.1s"
+          >
+            <a href="https://www.linkedin.com/in/ailiya-duan/"><div class="testimonial-item rounded p-4">
+              <div class="d-flex align-items-center mb-4">
+                <img
+                  class="img-fluid bg-white rounded flex-shrink-0 p-1"
+                  src="img/ailiya.jpeg"
+                  style="width: 85px; height: 85px"
+                />
+                <div class="ms-4">
+                  <h5 class="mb-1">Ailiya Duan</h5>
+                  <p class="mb-1" style="color: #919294">Designer</p>
+                </div>
+              </div>
+              <p class="mb-0" style="color: #919294">
+                Ailiya is our product designer who is also a project manager in disguise. She is also the only one in the team who can sing and spends her days watching hamster videos.
+              </p>
+            </div>
+            </a>
+            <a href="https://www.linkedin.com/in/advait-lad/"><div class="testimonial-item rounded p-4">
+              <div class="d-flex align-items-center mb-4">
+                <img
+                  class="img-fluid bg-white rounded flex-shrink-0 p-1"
+                  src="img/advait.jpg"
+                  style="width: 85px; height: 85px"
+                />
+                <div class="ms-4">
+                  <h5 class="mb-1">Advait Lad</h5>
+                  <p class="mb-1" style="color: #919294">Product Manager</p>
+                </div>
+              </div>
+              <p class="mb-0" style="color: #919294">
+                Advait is a budding product manager who actually conceived the idea of MusicMate back in 2021 and has been working on it ever since.
+              </p>
+            </div>
+            </a>
+            <a href="https://www.linkedin.com/in/akdhondi/"><div class="testimonial-item rounded p-4">
+              <div class="d-flex align-items-center mb-4">
+                <img
+                  class="img-fluid bg-white rounded flex-shrink-0 p-1"
+                  src="img/akshar.jpeg"
+                  style="width: 85px; height: 85px"
+                />
+                <div class="ms-4">
+                  <h5 class="mb-1">Akshar Dhondiyal</h5>
+                  <p class="mb-1" style="color: #919294">Backend Developer</p>
+                </div>
+              </div>
+              <p class="mb-0" style="color: #919294">
+                Akshar is a seasoned developer with deep-rooted interest in quantitiative finance and high-frequency trading. 
+              </p>
+            </div>
+            </a>
+            <a href="https://www.linkedin.com/in/avashadhikari/"><div class="testimonial-item rounded p-4">
+              <div class="d-flex align-items-center mb-4">
+                <img
+                  class="img-fluid bg-white rounded flex-shrink-0 p-1"
+                  src="img/avash.jpeg"
+                  style="width: 85px; height: 85px"
+                />
+                <div class="ms-4">
+                  <h5 class="mb-1">Avash Adhikari</h5>
+                  <p class="mb-1" style="color: #919294">Backend Developer</p>
+                </div>
+              </div>
+              <p class="mb-0" style="color: #919294">
+                Avash is a backend engineer with over four years of experience, He is also our in-house database expert.
+              </p>
+            </div>
+            </a>
+            <a href="https://www.linkedin.com/in/rishabhmthakur/"><div class="testimonial-item rounded p-4">
+              <div class="d-flex align-items-center mb-4">
+                <img
+                  class="img-fluid bg-white rounded flex-shrink-0 p-1"
+                  src="img/rishabh.jpeg"
+                  style="width: 85px; height: 85px"
+                />
+                <div class="ms-4">
+                  <h5 class="mb-1">Rishabh Thakur</h5>
+                  <p class="mb-1" style="color: #919294">Frontend Developer</p>
+                </div>
+              </div>
+              <p class="mb-0" style="color: #919294">
+                Rishabh is a full-stack developer with three years of experience building technology-enabled solutions that alleviate real-world challenges.
+              </p>
+            </div>
+            </a>
+            <a href="https://www.linkedin.com/in/kayashaolu/"><div class="testimonial-item rounded p-4">
+              <div class="d-flex align-items-center mb-4">
+                <img
+                  class="img-fluid bg-white rounded flex-shrink-0 p-1"
+                  src="img/kay.jpeg"
+                  style="width: 85px; height: 85px"
+                />
+                <div class="ms-4">
+                  <h5 class="mb-1">Kay Ashaolu</h5>
+                  <p class="mb-1" style="color: #919294">Advisor and Mentor</p>
+                </div>
+              </div>
+              <p class="mb-0" style="color: #919294">
+                Kay is an engineering manager at Pinterest. Recently, he has been trying to mitigate the lack of career guidance and mentorship among young professionals through his startup, Kekoexchange!
+              </p>
+            </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Testimonial End -->
+
+      <!-- Footer Start -->
+      <div
+        class="container-fluid bg-primary text-light footer wow fadeIn"
+        data-wow-delay="0.1s"
+      >
+        <div class="container py-5 px-lg-5">
+          <div class="row g-5">
+            <div class="col-md-12 col-lg-12">
+              <h4 class="text-white mb-4">Address</h4>
+              <p>
+                <i class="fa fa-map-marker-alt me-3"></i>School of Information,
+                UC Berkeley
+              </p>
+              <p><i class="fa fa-phone-alt me-3"></i>+(510) 642-1464</p>
+              <p>
+                <i class="fa fa-envelope me-3"></i>info@ischool.berkeley.edu
+              </p>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="container px-lg-5">
+          <div class="copyright">
+            <div class="row">
+              <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                &copy; <a class="border-bottom" href="#">MusicMate</a>, All
+                Right Reserved.
+
+                <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                Designed By
+                <a class="border-bottom" href="https://htmlcodex.com"
+                  >HTML Codex</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer End -->
+
+      <!-- Back to Top -->
+      <a href="#" class="btn btn-lg btn-lg-square back-to-top pt-2"
+        ><i class="bi bi-arrow-up text-white"></i
+      ></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
